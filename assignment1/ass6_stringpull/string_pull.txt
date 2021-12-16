@@ -1,0 +1,18 @@
+String pool is nothing but a storage area in Java heap .  It is just like object allocation. By default, it is empty and privately maintained by the Java String
+class. Whenever we create a string the string object occupies some space in the heap memory. 
+
+example: 
+
+String name = " raj";
+String name1 =  "raj ;
+if ( name== name1){
+System.out.println(" they are equal" );
+}
+else
+System.out.println(" not equal" );
+
+output:
+they are equal 
+
+Reason :
+ although they are having diffirent names , still their memory allocation in the heap memory is same. Because they carring same characters.  
